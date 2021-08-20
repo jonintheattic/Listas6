@@ -58,9 +58,8 @@ namespace Arrays6
                 for (int l = 0; l < productos.Length; l++)
                 {
                     if (codigoProducto == productos[l])
-                    {
-                        cantidad[l] += cantidadVendidos;
-                    }
+                       cantidad[l] += cantidadVendidos;
+                    
                 }
 
 
